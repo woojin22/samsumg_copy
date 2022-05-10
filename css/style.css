@@ -26,3 +26,10 @@
     max-width: 1440px;
     margin: 0 auto; 
   }
+
+  .left{
+    width: 223px;
+    height: 20px;
+    background-image: url(https://www.samsungsvc.co.kr/assets/img/ir/sprite.png);
+    background-position: 0px 364px;
+  }
