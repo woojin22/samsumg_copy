@@ -27,9 +27,41 @@
     margin: 0 auto; 
   }
 
-  .left{
+  .logo{
     width: 223px;
     height: 20px;
-    background-image: url(https://www.samsungsvc.co.kr/assets/img/ir/sprite.png);
+    background-image: url(../img/sprite.png);
     background-position: 0px 364px;
+  }
+  .search-icon{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/sprite.png);
+    background-position: -1090px -4455px;
+  }
+  .login-icon{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/sprite.png);
+    background-position: -1090px -4525px;
+  }
+  .shopping-cart-icon{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/sprite.png);
+    background-position: -1090px -4150px;
+  }
+
+  .top-bar-wrap{
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .top-bar-wrap > .top-bar{
+    height: 81px;
+  }
+  
+  .top-bar-wrap > .top-bar > nav{
+    margin-right: 10px;
+    margin-left: 10px;
   }
